@@ -1,6 +1,6 @@
 {
   "name": "poker-calculator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Z8264/dz.git"
+    "url": "git+https://github.com/Z8264/poker-calculator.git"
   },
   "keywords": [
     "poker",
     "Texas",
-    "Hold’em"
+    "Hold'em"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Z8264/dz/issues"
+    "url": "https://github.com/Z8264/poker-calculator/issues"
   },
-  "homepage": "https://github.com/Z8264/dz#readme",
+  "homepage": "https://github.com/Z8264/poker-calculator#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.0",
