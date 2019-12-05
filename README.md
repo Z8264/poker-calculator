@@ -1,7 +1,7 @@
 
-# PokerCalculator.js
+# Poker Calculator
 
-PokerCalculator
+Poker Calculator
 
 ## Install
 
@@ -53,25 +53,25 @@ Use **Numbers** to represent playing cards
 
 ### Hand Type
 
-| Hand Type       | Number |  Chinese   |
-| :-------------- | :----: | :--------: |
+| Hand Type       | Number |    Chinese |
+| :-------------- | :----: | ---------: |
 | Royal Flush     |   10   | 皇家同花顺 |
-| Straight Flush  |   9    |   同花顺   |
-| Four Of A Kind  |   8    |    四条    |
-| Full House      |   7    |    葫芦    |
-| Flush           |   6    |    同花    |
-| Straight        |   5    |    顺子    |
-| Three Of A Kind |   4    |    三条    |
-| Two Pair        |   3    |    两对    |
-| One Pair        |   2    |    一对    |
-| High Card       |   1    |    高牌    |
+| Straight Flush  |   9    |     同花顺 |
+| Four Of A Kind  |   8    |       四条 |
+| Full House      |   7    |       葫芦 |
+| Flush           |   6    |       同花 |
+| Straight        |   5    |       顺子 |
+| Three Of A Kind |   4    |       三条 |
+| Two Pair        |   3    |       两对 |
+| One Pair        |   2    |       一对 |
+| High Card       |   1    |       高牌 |
 
 ## APIs
 
 ### Common Methods
 
 | Methods       | Description |
-| ------------- | ----------- |
+| :------------ | :---------- |
 | convert       |             |
 | getRank       |             |
 | getSuit       |             |
@@ -114,13 +114,13 @@ PokerCalculator.getSuitSymbol(13)
 ### Texas Hold’em Methods
 
 | Methods | Description |
-| ------- | ----------- |
+| :------ | :---------- |
 | hand    |             |
 
 #### `hand([Number, Number, ...])`
 
 | @return | Description |
-| ------- | ----------- |
+| :------ | :---------- |
 | type    |             |
 | cards   |             |
 | value   |             |
@@ -143,3 +143,7 @@ PokerCalculator.hand([17, 30, 43, 20, 26, 34, 39]);
 //    name: 'Full House',
 // }
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
