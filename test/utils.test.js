@@ -1,6 +1,6 @@
 const {
   getRankValue, sortByRankValue, getMaxStraight, getSameSuits, groupByRankValue,
-} = require('../src/utils');
+} = require('../lib/TexasHoldem/utils');
 
 /**
  * getRankValue

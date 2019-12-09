@@ -1,4 +1,4 @@
-const { hand } = require('../');
+const { hand } = require('../lib');
 
 /**
  * 7 cards

@@ -1,4 +1,4 @@
-const { convert } = require('../');
+const { convert } = require('../lib');
 
 test('toNumber A HEART', () => {
   expect(convert('A', 'HEART')).toBe(1);

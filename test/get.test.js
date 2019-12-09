@@ -1,4 +1,4 @@
-const { getRank, getSuit, getSuitSymbol } = require('../');
+const { getRank, getSuit, getSuitSymbol } = require('../lib');
 
 test('getSuitSymbol & getRank 1~13', () => {
   const res = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].map((card) => `${getSuitSymbol(card)}${getRank(card)}`);
